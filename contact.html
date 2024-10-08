@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <img src="https://www.stef.com/nederland/themes/custom/stef/images/logo.svg" alt="Logo">
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Contact</h1>
+        <p class="intro-text">Welkom op de contact pagina. Laat hier je vragen, feedback en suggesties achter. Alvast bedankt voor jouw inzending!</p>
+    </header>
+
+    <main class="form-main">
+        <div class="center-container">
+            <section>
+                <h2>Form</h2>
+            </section>
+
+            <form method="POST">
+                <label for="name">Naam</label>
+                <input type="text" id="name" name="name" required placeholder="Voer volledige naam in...">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Voer emailadres in...">
+
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required placeholder="Voer city in...">
+
+                <label for="birthdate">Geboortedatum</label>
+                <input type="date" id="birthdate" name="birthdate" required>
+
+                <label for="subject">Onderwerp</label>
+                <select id="subject" name="subject" required>
+                    <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+                    <option value="0">Vraag</option>
+                    <option value="1">Feedback</option>
+                    <option value="2">Suggestie</option>
+                    <option value="3">Anders</option>
+                </select>
+
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <div>
+                    <input type="checkbox" id="akkoord" name="akkoord" value="Akkoord" required>
+                    <label for="akkoord">Ik ga akkoord met de algemene voorwaarden</label>
+                </div>
+
+                <label for="newsletter">Inschrijven voor nieuwesbrief?</label>
+
+                <div>
+                    <input type="radio" id="yes" name="newsletter" checked>
+                    <label for="yes">Ja</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="no" name="newsletter">
+                    <label for="no">Nee</label>
+                </div>
+
+                <button type="submit">Verzend</button>
+            </form>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div>
+            <img src="images/logo.svg" alt="Logo">
+            <p>&copy; Stef Huijsdens Ltd.</p>
+        </div>
+
+        <div class="footer-right">
+            <p>Algemene voorwaarden</p>
+            <p>Contact</p>
+        </div>
+    </footer>
+</body>
+
+</html>
