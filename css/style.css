@@ -1,0 +1,156 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    height: 55px;
+    background-color: #E2E7F0;
+    border-bottom: 3px solid black;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0px;
+}
+
+nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.links {
+    margin-top: 2.5vh;
+}
+
+.index-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 77px);
+    
+    background: url(../images/SSL4_Announcement_Variant.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    margin-bottom: -100px;
+    width: 90%;
+}
+
+main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    background-color: #E2E7F0;
+    padding: 40px;
+}
+
+.profile {
+    height: 40%;
+    width: 40%;
+}
+
+.organisers {
+    display: flex;
+    gap: 60px;
+    margin-top: 5vh;
+}
+
+.organiser {
+    background-color: white;
+    height: 40vh;
+    width: 20vw;
+    padding: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    transform-origin: center;
+    transition: all 1s ease;
+}
+
+.organiser:hover {
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.4);
+    transform:scale(1.2);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1A202C;
+    height: 10vh;
+    padding: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+.footer-right {
+    display: flex;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.center-container {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 650px;
+}
+
+.contact-header {
+    height: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.form-main {
+    height: 60vh;
+}
