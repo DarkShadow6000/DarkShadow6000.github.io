@@ -112,7 +112,7 @@ function gameOver() {
     clearInterval(gameInterval); // Stop the game loop
     setTimeout(() => {
         alert("Game Over! Your score was: " + score);
-        window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank"); // Open Rickroll in new tab
+        window.open("https://youtu.be/u9g5XsoE4-s?si=pCXNy4G_GtfMpMqR", "_blank"); // Open Rickroll in new tab
         restartGame(); // Restart the game after opening the link
     }, 10);
 }
